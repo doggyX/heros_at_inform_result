@@ -1,0 +1,8 @@
+{
+  "status": "stopped",
+  "message": "监控程序被用户中断",
+  "timestamp": 1772525235.676572,
+  "interval_minutes": 1,
+  "previous_data_count": 199,
+  "is_paused": false
+}

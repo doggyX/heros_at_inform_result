@@ -1,0 +1,29 @@
+[
+  {
+    "task_id": "task_1772521963_2",
+    "product_code": "LYHS28F02DZH3D",
+    "batch_no": "YTAP164260303B002",
+    "ipqc_no": "IPQC2603030018",
+    "result": "pass",
+    "created_at": "2026-03-03T15:12:43.726723",
+    "status": "pending"
+  },
+  {
+    "task_id": "task_1772524252_2",
+    "product_code": "LYHS30F04B002",
+    "batch_no": "CBL002260303A002",
+    "ipqc_no": "IPQC2603030435",
+    "result": "fail",
+    "created_at": "2026-03-03T15:50:52.078116",
+    "status": "pending"
+  },
+  {
+    "task_id": "task_1772524793_4",
+    "product_code": "LYHS32F16B005",
+    "batch_no": "TAP174260303A003",
+    "ipqc_no": "IPQC2603030431",
+    "result": "pass",
+    "created_at": "2026-03-03T15:59:53.491461",
+    "status": "pending"
+  }
+]
