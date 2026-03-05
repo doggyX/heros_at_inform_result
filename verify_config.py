@@ -31,3 +31,9 @@ ERROR_DINGTALK_CONFIG = {
     'webhook_url': os.getenv('ERROR_DINGTALK_WEBHOOK_URL'),
     'secret': os.getenv('ERROR_DINGTALK_SECRET')
 }
+
+# 特殊核对路径配置
+SPECIAL_PATH_CONFIG = {
+    'file': 'special_paths.json',  # 特殊路径映射文件
+    'default_path': ''  # 默认路径
+}

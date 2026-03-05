@@ -1,0 +1,11 @@
+{
+  "product_code_to_folder": {
+    "PROD001": "产品001文件夹",
+    "PROD002": "产品002专用文件夹"
+  },
+  "product_code_to_cell": {
+    "LYHS30P16A001": "F33",
+    "LYHS30F04B002": "F50",
+    "LYHS30F04B001": "F50"
+  }
+}

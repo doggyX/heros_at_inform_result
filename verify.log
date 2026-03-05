@@ -1,531 +1,344 @@
-2026-03-03 14:59:52,376 - INFO - excel_verifier.py:472 - 验证程序被用户中断
-2026-03-03 14:59:53,654 - ERROR - excel_verifier.py:165 - 加载任务文件失败: Expecting value: line 1 column 1 (char 0)
-2026-03-03 14:59:53,654 - INFO - excel_verifier.py:445 - 开始运行Excel验证程序，间隔 1 分钟
-2026-03-03 14:59:53,655 - INFO - excel_verifier.py:448 - 启动时测试挂载点...
-2026-03-03 14:59:53,656 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 14:59:53,656 - ERROR - excel_verifier.py:165 - 加载任务文件失败: Expecting value: line 1 column 1 (char 0)
-2026-03-03 14:59:53,656 - INFO - excel_verifier.py:406 - 没有待验证任务
-2026-03-03 14:59:53,656 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:00:53,657 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 0 个任务
-2026-03-03 15:00:53,657 - INFO - excel_verifier.py:406 - 没有待验证任务
-2026-03-03 15:00:53,657 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:01:53,658 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 0 个任务
-2026-03-03 15:01:53,659 - INFO - excel_verifier.py:406 - 没有待验证任务
-2026-03-03 15:01:53,660 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:02:53,660 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 0 个任务
-2026-03-03 15:02:53,661 - INFO - excel_verifier.py:406 - 没有待验证任务
-2026-03-03 15:02:53,661 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:03:53,662 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 0 个任务
-2026-03-03 15:03:53,662 - INFO - excel_verifier.py:406 - 没有待验证任务
-2026-03-03 15:03:53,663 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:04:53,663 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 0 个任务
-2026-03-03 15:04:53,664 - INFO - excel_verifier.py:406 - 没有待验证任务
-2026-03-03 15:04:53,664 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:05:53,664 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 0 个任务
-2026-03-03 15:05:53,665 - INFO - excel_verifier.py:406 - 没有待验证任务
-2026-03-03 15:05:53,666 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:06:53,666 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 0 个任务
-2026-03-03 15:06:53,667 - INFO - excel_verifier.py:406 - 没有待验证任务
-2026-03-03 15:06:53,667 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:07:53,668 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 0 个任务
-2026-03-03 15:07:53,669 - INFO - excel_verifier.py:406 - 没有待验证任务
-2026-03-03 15:07:53,669 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:08:53,670 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 0 个任务
-2026-03-03 15:08:53,670 - INFO - excel_verifier.py:406 - 没有待验证任务
-2026-03-03 15:08:53,670 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:09:42,674 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772521782_1
-2026-03-03 15:09:53,670 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 1 个任务
-2026-03-03 15:09:53,671 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:09:53,672 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:09:53,672 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:09:53,721 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.05秒
-2026-03-03 15:09:53,916 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:09:53\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.05秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:09:53,918 - INFO - excel_verifier.py:178 - 已保存 1 个任务到文件: verify_tasks.json
-2026-03-03 15:09:53,919 - INFO - excel_verifier.py:432 - 剩余 1 个任务
-2026-03-03 15:09:53,919 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:10:53,920 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 1 个任务
-2026-03-03 15:10:53,920 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:10:53,921 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:10:53,921 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:10:53,972 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.05秒
-2026-03-03 15:10:54,156 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:10:53\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.05秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:10:54,157 - INFO - excel_verifier.py:178 - 已保存 1 个任务到文件: verify_tasks.json
-2026-03-03 15:10:54,157 - INFO - excel_verifier.py:432 - 剩余 1 个任务
-2026-03-03 15:10:54,157 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:11:54,158 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 1 个任务
-2026-03-03 15:11:54,158 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:11:54,159 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:11:54,159 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:11:54,206 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.05秒
-2026-03-03 15:11:54,390 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:11:54\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.05秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:11:54,392 - INFO - excel_verifier.py:178 - 已保存 1 个任务到文件: verify_tasks.json
-2026-03-03 15:11:54,392 - INFO - excel_verifier.py:432 - 剩余 1 个任务
-2026-03-03 15:11:54,392 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:12:43,727 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772521963_2
-2026-03-03 15:12:54,392 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:12:54,395 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:12:54,395 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:12:54,396 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:12:54,877 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.48秒
-2026-03-03 15:12:55,075 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:12:54\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.48秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:12:55,076 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521963_2
-2026-03-03 15:12:55,077 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:12:55,077 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:12:55,077 - ERROR - excel_verifier.py:233 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:12:55,077 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:12:55,274 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:12:55\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:12:55,277 - INFO - excel_verifier.py:178 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:12:55,277 - INFO - excel_verifier.py:432 - 剩余 2 个任务
-2026-03-03 15:12:55,277 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:13:55,278 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:13:55,278 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:13:55,280 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:13:55,280 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:13:55,777 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.50秒
-2026-03-03 15:13:55,956 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:13:55\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.50秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:13:55,958 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521963_2
-2026-03-03 15:13:55,959 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:13:55,959 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:13:55,960 - ERROR - excel_verifier.py:233 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:13:55,960 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:13:56,124 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:13:55\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:13:56,126 - INFO - excel_verifier.py:178 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:13:56,126 - INFO - excel_verifier.py:432 - 剩余 2 个任务
-2026-03-03 15:13:56,126 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:14:56,127 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:14:56,127 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:14:56,128 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:14:56,128 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:14:56,590 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.46秒
-2026-03-03 15:14:56,816 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:14:56\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.46秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:14:56,818 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521963_2
-2026-03-03 15:14:56,818 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:14:56,819 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:14:56,819 - ERROR - excel_verifier.py:233 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:14:56,820 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:14:56,984 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:14:56\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:14:56,987 - INFO - excel_verifier.py:178 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:14:56,987 - INFO - excel_verifier.py:432 - 剩余 2 个任务
-2026-03-03 15:14:56,987 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:15:56,988 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:15:56,988 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:15:56,989 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:15:56,989 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:15:57,448 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.46秒
-2026-03-03 15:15:57,634 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:15:57\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.46秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:15:57,635 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521963_2
-2026-03-03 15:15:57,635 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:15:57,635 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:15:57,636 - ERROR - excel_verifier.py:233 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:15:57,636 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:15:57,829 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:15:57\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:15:57,832 - INFO - excel_verifier.py:178 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:15:57,832 - INFO - excel_verifier.py:432 - 剩余 2 个任务
-2026-03-03 15:15:57,833 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:16:44,629 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772522204_3
-2026-03-03 15:16:57,833 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 3 个任务
-2026-03-03 15:16:57,834 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:16:57,835 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:16:57,835 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:16:58,314 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.48秒
-2026-03-03 15:16:58,543 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:16:58\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.48秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:16:58,546 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521963_2
-2026-03-03 15:16:58,547 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:16:58,547 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:16:58,549 - ERROR - excel_verifier.py:233 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:16:58,550 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:16:58,739 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:16:58\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:16:58,740 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772522204_3
-2026-03-03 15:16:58,741 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:16:58,741 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F02D016
-2026-03-03 15:16:59,051 - INFO - excel_verifier.py:262 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F02D016/5111-2601260002/TAP057/TAP057260303B001~B1 IPQC2603030230 Pass.xlsx
-2026-03-03 15:16:59,938 - INFO - excel_verifier.py:419 - 任务验证成功: task_1772522204_3, 耗时: 1.20秒
-2026-03-03 15:16:59,940 - INFO - excel_verifier.py:178 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:16:59,940 - INFO - excel_verifier.py:432 - 剩余 2 个任务
-2026-03-03 15:16:59,941 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:17:59,942 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:17:59,942 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:17:59,943 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:17:59,943 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:17:59,994 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.05秒
-2026-03-03 15:18:00,153 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:17:59\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.05秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:18:00,154 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521963_2
-2026-03-03 15:18:00,155 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:18:00,155 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:18:00,155 - ERROR - excel_verifier.py:233 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:18:00,156 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:18:00,329 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:18:00\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:18:00,332 - INFO - excel_verifier.py:178 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:18:00,333 - INFO - excel_verifier.py:432 - 剩余 2 个任务
-2026-03-03 15:18:00,333 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:19:00,334 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:19:00,334 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:19:00,336 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:19:00,337 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:19:00,799 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.46秒
-2026-03-03 15:19:00,981 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:19:00\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.46秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:19:00,984 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521963_2
-2026-03-03 15:19:00,985 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:19:00,986 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:19:01,029 - ERROR - excel_verifier.py:233 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:19:01,030 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.04秒
-2026-03-03 15:19:01,227 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:19:01\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.04秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:19:01,229 - INFO - excel_verifier.py:178 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:19:01,229 - INFO - excel_verifier.py:432 - 剩余 2 个任务
-2026-03-03 15:19:01,229 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:20:01,229 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:20:01,230 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:20:01,231 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:20:01,231 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:20:02,130 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.90秒
-2026-03-03 15:20:02,303 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:20:02\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.90秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:20:02,305 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521963_2
-2026-03-03 15:20:02,307 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:20:02,307 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:20:02,307 - ERROR - excel_verifier.py:233 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:20:02,308 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:20:02,460 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:20:02\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:20:02,461 - INFO - excel_verifier.py:178 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:20:02,462 - INFO - excel_verifier.py:432 - 剩余 2 个任务
-2026-03-03 15:20:02,462 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:21:02,462 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:21:02,462 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:21:02,463 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:21:02,464 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:21:03,383 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.92秒
-2026-03-03 15:21:03,561 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:21:03\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.92秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:21:03,562 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521963_2
-2026-03-03 15:21:03,563 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:21:03,563 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:21:03,564 - ERROR - excel_verifier.py:233 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:21:03,564 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:21:03,745 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:21:03\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:21:03,747 - INFO - excel_verifier.py:178 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:21:03,748 - INFO - excel_verifier.py:432 - 剩余 2 个任务
-2026-03-03 15:21:03,748 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:22:03,748 - INFO - excel_verifier.py:156 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:22:03,749 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521782_1
-2026-03-03 15:22:03,750 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:22:03,750 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:22:03,804 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.06秒
-2026-03-03 15:22:03,978 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:22:03\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.06秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:22:03,979 - INFO - excel_verifier.py:413 - 开始验证任务: task_1772521963_2
-2026-03-03 15:22:03,980 - INFO - excel_verifier.py:204 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:22:03,980 - INFO - excel_verifier.py:229 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:22:03,980 - ERROR - excel_verifier.py:233 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:22:03,980 - ERROR - excel_verifier.py:422 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:22:04,165 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:22:03\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:22:04,167 - INFO - excel_verifier.py:178 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:22:04,167 - INFO - excel_verifier.py:432 - 剩余 2 个任务
-2026-03-03 15:22:04,167 - INFO - excel_verifier.py:458 - 等待 1 分钟后再次检查...
-2026-03-03 15:22:45,616 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772522565_3
-2026-03-03 15:23:01,874 - INFO - excel_verifier.py:461 - 验证程序被用户中断
-2026-03-03 15:24:46,094 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772522686_4
-2026-03-03 15:25:46,497 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772522746_5
-2026-03-03 15:26:47,130 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772522807_6
-2026-03-03 15:31:48,167 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772523108_7
-2026-03-03 15:32:15,463 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 7 个任务
-2026-03-03 15:32:15,464 - INFO - excel_verifier.py:522 - 开始运行Excel验证程序，间隔 5.0 分钟
-2026-03-03 15:32:15,464 - INFO - excel_verifier.py:525 - 启动时测试挂载点...
-2026-03-03 15:32:15,465 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:32:15,465 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 7 个任务
-2026-03-03 15:32:15,465 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521782_1
-2026-03-03 15:32:15,465 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:32:15,465 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:32:15,724 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.26秒
-2026-03-03 15:32:15,929 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:32:15\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.26秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:32:15,931 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521963_2
-2026-03-03 15:32:15,931 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:32:15,931 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:32:15,932 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:32:15,932 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:32:16,154 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:32:15\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:32:16,155 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772522565_3
-2026-03-03 15:32:16,156 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:32:16,156 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:32:16,408 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772522565_3, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP172260303A003, IPQC单号=IPQC2603030417, 耗时: 0.25秒
-2026-03-03 15:32:16,589 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:32:16\n**任务ID**: task_1772522565_3\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP172260303A003\n**IPQC单号**: IPQC2603030417\n**预期结果**: fail\n**验证耗时**: 0.25秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP172260303A003, IPQC单号=IPQC2603030417\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:32:16,591 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772522686_4
-2026-03-03 15:32:16,592 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:32:16,592 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS29F02D014
-2026-03-03 15:32:16,809 - INFO - excel_verifier.py:338 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS29F02D014/5101-2602250004/TAP50/TAP050260303A002~B1 IPQC2603030394 Pass.xlsx
-2026-03-03 15:32:17,875 - INFO - excel_verifier.py:495 - 任务验证成功: task_1772522686_4, 耗时: 1.28秒
-2026-03-03 15:32:17,875 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772522746_5
-2026-03-03 15:32:17,876 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:32:17,876 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F02D016
-2026-03-03 15:32:18,374 - INFO - excel_verifier.py:338 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F02D016/5111-2601260002/TAP054/TAP054260303A001~B1 IPQC2603030366 Pass.xlsx
-2026-03-03 15:32:19,161 - INFO - excel_verifier.py:495 - 任务验证成功: task_1772522746_5, 耗时: 1.29秒
-2026-03-03 15:32:19,162 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772522807_6
-2026-03-03 15:32:19,162 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:32:19,162 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:32:19,943 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772522807_6, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP166260303A003, IPQC单号=IPQC2603030415, 耗时: 0.78秒
-2026-03-03 15:32:20,160 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:32:19\n**任务ID**: task_1772522807_6\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP166260303A003\n**IPQC单号**: IPQC2603030415\n**预期结果**: pass\n**验证耗时**: 0.78秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP166260303A003, IPQC单号=IPQC2603030415\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:32:20,162 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772523108_7
-2026-03-03 15:32:20,162 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:32:20,162 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS29F02D014
-2026-03-03 15:32:20,183 - INFO - excel_verifier.py:338 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS29F02D014/5101-2602250005/TAP67/TAP067260303B001~B3 IPQC2603030422 Fail.xlsx
-2026-03-03 15:32:20,706 - INFO - excel_verifier.py:495 - 任务验证成功: task_1772523108_7, 耗时: 0.54秒
-2026-03-03 15:32:20,707 - INFO - excel_verifier.py:185 - 已保存 4 个任务到文件: verify_tasks.json
-2026-03-03 15:32:20,707 - INFO - excel_verifier.py:508 - 剩余 4 个任务
-2026-03-03 15:32:48,781 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772523168_5
-2026-03-03 15:32:49,330 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772523169_6
-2026-03-03 15:37:20,718 - INFO - excel_verifier.py:544 - 等待 5.0 分钟后再次检查...
-2026-03-03 15:37:20,720 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 6 个任务
-2026-03-03 15:37:20,720 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521782_1
-2026-03-03 15:37:20,722 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:37:20,722 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:37:21,013 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.29秒
-2026-03-03 15:37:21,279 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:37:21\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.29秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:37:21,281 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521963_2
-2026-03-03 15:37:21,281 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:37:21,282 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:37:21,282 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:37:21,283 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:37:21,474 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:37:21\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:37:21,476 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772522565_3
-2026-03-03 15:37:21,476 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:37:21,476 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:37:22,150 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772522565_3, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP172260303A003, IPQC单号=IPQC2603030417, 耗时: 0.67秒
-2026-03-03 15:37:22,319 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:37:22\n**任务ID**: task_1772522565_3\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP172260303A003\n**IPQC单号**: IPQC2603030417\n**预期结果**: fail\n**验证耗时**: 0.67秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP172260303A003, IPQC单号=IPQC2603030417\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:37:22,320 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772522807_6
-2026-03-03 15:37:22,321 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:37:22,321 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:37:22,566 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772522807_6, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP166260303A003, IPQC单号=IPQC2603030415, 耗时: 0.25秒
-2026-03-03 15:37:22,734 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:37:22\n**任务ID**: task_1772522807_6\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP166260303A003\n**IPQC单号**: IPQC2603030415\n**预期结果**: pass\n**验证耗时**: 0.25秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP166260303A003, IPQC单号=IPQC2603030415\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:37:22,738 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772523168_5
-2026-03-03 15:37:22,739 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:37:22,740 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F32D001
-2026-03-03 15:37:22,757 - INFO - excel_verifier.py:338 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F32D001/5102-2602270024/TAP094260303A002~B1 IPQC2603030420 Pass.xlsx
-2026-03-03 15:37:23,234 - INFO - excel_verifier.py:495 - 任务验证成功: task_1772523168_5, 耗时: 0.50秒
-2026-03-03 15:37:23,235 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772523169_6
-2026-03-03 15:37:23,235 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:37:23,235 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F02D016
-2026-03-03 15:37:23,718 - INFO - excel_verifier.py:338 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F02D016/5111-2601150003/TAP63/TAP063260303A001~B3 IPQC2603030413 Fail.xlsx
-2026-03-03 15:37:24,246 - INFO - excel_verifier.py:495 - 任务验证成功: task_1772523169_6, 耗时: 1.01秒
-2026-03-03 15:37:24,246 - INFO - excel_verifier.py:185 - 已保存 4 个任务到文件: verify_tasks.json
-2026-03-03 15:37:24,246 - INFO - excel_verifier.py:508 - 剩余 4 个任务
-2026-03-03 15:37:50,555 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772523470_5
-2026-03-03 15:42:24,258 - INFO - excel_verifier.py:544 - 等待 5.0 分钟后再次检查...
-2026-03-03 15:42:24,259 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 5 个任务
-2026-03-03 15:42:24,259 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521782_1
-2026-03-03 15:42:24,260 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:42:24,260 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:42:24,525 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.27秒
-2026-03-03 15:42:24,702 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:42:24\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.27秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:42:24,704 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521963_2
-2026-03-03 15:42:24,706 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:42:24,706 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:42:24,707 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:42:24,708 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:42:24,879 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:42:24\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:42:24,881 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772522565_3
-2026-03-03 15:42:24,882 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:42:24,882 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:42:25,122 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772522565_3, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP172260303A003, IPQC单号=IPQC2603030417, 耗时: 0.24秒
-2026-03-03 15:42:25,303 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:42:25\n**任务ID**: task_1772522565_3\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP172260303A003\n**IPQC单号**: IPQC2603030417\n**预期结果**: fail\n**验证耗时**: 0.24秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP172260303A003, IPQC单号=IPQC2603030417\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:42:25,304 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772522807_6
-2026-03-03 15:42:25,305 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:42:25,305 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:42:25,970 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772522807_6, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP166260303A003, IPQC单号=IPQC2603030415, 耗时: 0.67秒
-2026-03-03 15:42:26,117 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:42:25\n**任务ID**: task_1772522807_6\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP166260303A003\n**IPQC单号**: IPQC2603030415\n**预期结果**: pass\n**验证耗时**: 0.67秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP166260303A003, IPQC单号=IPQC2603030415\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:42:26,119 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772523470_5
-2026-03-03 15:42:26,119 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:42:26,119 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:42:26,154 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772523470_5, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP107260303A002, IPQC单号=IPQC2603030429, 耗时: 0.03秒
-2026-03-03 15:42:26,343 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:42:26\n**任务ID**: task_1772523470_5\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP107260303A002\n**IPQC单号**: IPQC2603030429\n**预期结果**: pass\n**验证耗时**: 0.03秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP107260303A002, IPQC单号=IPQC2603030429\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:42:26,345 - INFO - excel_verifier.py:185 - 已保存 5 个任务到文件: verify_tasks.json
-2026-03-03 15:42:26,345 - INFO - excel_verifier.py:508 - 剩余 5 个任务
-2026-03-03 15:46:51,311 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772524011_6
-2026-03-03 15:47:26,357 - INFO - excel_verifier.py:544 - 等待 5.0 分钟后再次检查...
-2026-03-03 15:47:26,358 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 6 个任务
-2026-03-03 15:47:26,359 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521782_1
-2026-03-03 15:47:26,360 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:47:26,360 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:47:26,422 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521782_1, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407, 耗时: 0.06秒
-2026-03-03 15:47:26,615 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:47:26\n**任务ID**: task_1772521782_1\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP175260303A002\n**IPQC单号**: IPQC2603030407\n**预期结果**: pass\n**验证耗时**: 0.06秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP175260303A002, IPQC单号=IPQC2603030407\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:47:26,617 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521963_2
-2026-03-03 15:47:26,617 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:47:26,617 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:47:26,618 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:47:26,618 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:47:26,810 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:47:26\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:47:26,812 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772522565_3
-2026-03-03 15:47:26,813 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:47:26,813 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:47:26,853 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772522565_3, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP172260303A003, IPQC单号=IPQC2603030417, 耗时: 0.04秒
-2026-03-03 15:47:27,034 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:47:26\n**任务ID**: task_1772522565_3\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP172260303A003\n**IPQC单号**: IPQC2603030417\n**预期结果**: fail\n**验证耗时**: 0.04秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP172260303A003, IPQC单号=IPQC2603030417\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:47:27,036 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772522807_6
-2026-03-03 15:47:27,036 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:47:27,037 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:47:27,074 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772522807_6, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP166260303A003, IPQC单号=IPQC2603030415, 耗时: 0.04秒
-2026-03-03 15:47:27,251 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:47:27\n**任务ID**: task_1772522807_6\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP166260303A003\n**IPQC单号**: IPQC2603030415\n**预期结果**: pass\n**验证耗时**: 0.04秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP166260303A003, IPQC单号=IPQC2603030415\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:47:27,252 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772523470_5
-2026-03-03 15:47:27,253 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:47:27,253 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 15:47:27,704 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772523470_5, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP107260303A002, IPQC单号=IPQC2603030429, 耗时: 0.45秒
-2026-03-03 15:47:27,883 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:47:27\n**任务ID**: task_1772523470_5\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP107260303A002\n**IPQC单号**: IPQC2603030429\n**预期结果**: pass\n**验证耗时**: 0.45秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP107260303A002, IPQC单号=IPQC2603030429\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:47:27,885 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524011_6
-2026-03-03 15:47:27,885 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:47:27,885 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS26F16D002B
-2026-03-03 15:47:27,886 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS26F16D002B
-2026-03-03 15:47:27,886 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524011_6, 错误: 未找到匹配的Excel文件: 产品编号=LYHS26F16D002B, 生产批号=YTAP091260303A002, IPQC单号=IPQC2603030014, 耗时: 0.00秒
-2026-03-03 15:47:28,068 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:47:27\n**任务ID**: task_1772524011_6\n**产品编号**: LYHS26F16D002B\n**生产批号**: YTAP091260303A002\n**IPQC单号**: IPQC2603030014\n**预期结果**: fail\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS26F16D002B, 生产批号=YTAP091260303A002, IPQC单号=IPQC2603030014\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:47:28,071 - INFO - excel_verifier.py:185 - 已保存 6 个任务到文件: verify_tasks.json
-2026-03-03 15:47:28,071 - INFO - excel_verifier.py:508 - 剩余 6 个任务
-2026-03-03 15:50:52,078 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772524252_2
-2026-03-03 15:52:28,129 - INFO - excel_verifier.py:544 - 等待 5.0 分钟后再次检查...
-2026-03-03 15:52:28,129 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:52:28,129 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521963_2
-2026-03-03 15:52:28,130 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:52:28,130 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:52:28,131 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:52:28,131 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:52:28,317 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:52:28\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:52:28,319 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524252_2
-2026-03-03 15:52:28,319 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:52:28,320 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F04B002
-2026-03-03 15:52:28,331 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524252_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435, 耗时: 0.01秒
-2026-03-03 15:52:28,499 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:52:28\n**任务ID**: task_1772524252_2\n**产品编号**: LYHS30F04B002\n**生产批号**: CBL002260303A002\n**IPQC单号**: IPQC2603030435\n**预期结果**: fail\n**验证耗时**: 0.01秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:52:28,502 - INFO - excel_verifier.py:185 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:52:28,502 - INFO - excel_verifier.py:508 - 剩余 2 个任务
-2026-03-03 15:57:28,513 - INFO - excel_verifier.py:544 - 等待 5.0 分钟后再次检查...
-2026-03-03 15:57:28,513 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 2 个任务
-2026-03-03 15:57:28,513 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521963_2
-2026-03-03 15:57:28,515 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:57:28,515 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:57:28,515 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 15:57:28,515 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 15:57:28,708 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:57:28\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:57:28,710 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524252_2
-2026-03-03 15:57:28,710 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 15:57:28,710 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F04B002
-2026-03-03 15:57:28,722 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524252_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435, 耗时: 0.01秒
-2026-03-03 15:57:28,894 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 15:57:28\n**任务ID**: task_1772524252_2\n**产品编号**: LYHS30F04B002\n**生产批号**: CBL002260303A002\n**IPQC单号**: IPQC2603030435\n**预期结果**: fail\n**验证耗时**: 0.01秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435\n'}, 'at': {'isAtAll': True}}
-2026-03-03 15:57:28,896 - INFO - excel_verifier.py:185 - 已保存 2 个任务到文件: verify_tasks.json
-2026-03-03 15:57:28,897 - INFO - excel_verifier.py:508 - 剩余 2 个任务
-2026-03-03 15:59:53,102 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772524793_3
-2026-03-03 15:59:53,492 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772524793_4
-2026-03-03 16:01:53,907 - INFO - excel_verifier.py:235 - 收到命令: change_interval，参数: {'interval': 1.0}
-2026-03-03 16:01:53,908 - INFO - excel_verifier.py:243 - 检查间隔已修改为 1.0 分钟
-2026-03-03 16:02:28,911 - INFO - excel_verifier.py:544 - 等待 1.0 分钟后再次检查...
-2026-03-03 16:02:28,911 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 4 个任务
-2026-03-03 16:02:28,913 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521963_2
-2026-03-03 16:02:28,914 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:02:28,914 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 16:02:28,914 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 16:02:28,914 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 16:02:29,097 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:02:28\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:02:29,099 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524252_2
-2026-03-03 16:02:29,100 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:02:29,101 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F04B002
-2026-03-03 16:02:29,316 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524252_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435, 耗时: 0.22秒
-2026-03-03 16:02:29,489 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:02:29\n**任务ID**: task_1772524252_2\n**产品编号**: LYHS30F04B002\n**生产批号**: CBL002260303A002\n**IPQC单号**: IPQC2603030435\n**预期结果**: fail\n**验证耗时**: 0.22秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:02:29,491 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524793_3
-2026-03-03 16:02:29,492 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:02:29,493 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F02C003
-2026-03-03 16:02:32,129 - INFO - excel_verifier.py:338 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS30F02C003/5101-2602100006/TAP73/TAP073260303B001~B4 IPQC2603030433 Fail.xlsx
-2026-03-03 16:02:32,558 - INFO - excel_verifier.py:495 - 任务验证成功: task_1772524793_3, 耗时: 3.07秒
-2026-03-03 16:02:32,558 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524793_4
-2026-03-03 16:02:32,560 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:02:32,560 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 16:02:33,446 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524793_4, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP174260303A003, IPQC单号=IPQC2603030431, 耗时: 0.89秒
-2026-03-03 16:02:33,614 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:02:33\n**任务ID**: task_1772524793_4\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP174260303A003\n**IPQC单号**: IPQC2603030431\n**预期结果**: pass\n**验证耗时**: 0.89秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP174260303A003, IPQC单号=IPQC2603030431\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:02:33,617 - INFO - excel_verifier.py:185 - 已保存 3 个任务到文件: verify_tasks.json
-2026-03-03 16:02:33,617 - INFO - excel_verifier.py:508 - 剩余 3 个任务
-2026-03-03 16:03:33,619 - INFO - excel_verifier.py:544 - 等待 1.0 分钟后再次检查...
-2026-03-03 16:03:33,620 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 3 个任务
-2026-03-03 16:03:33,621 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521963_2
-2026-03-03 16:03:33,622 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:03:33,622 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 16:03:33,623 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 16:03:33,623 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 16:03:33,783 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:03:33\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:03:33,785 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524252_2
-2026-03-03 16:03:33,786 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:03:33,786 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F04B002
-2026-03-03 16:03:34,001 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524252_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435, 耗时: 0.22秒
-2026-03-03 16:03:34,191 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:03:34\n**任务ID**: task_1772524252_2\n**产品编号**: LYHS30F04B002\n**生产批号**: CBL002260303A002\n**IPQC单号**: IPQC2603030435\n**预期结果**: fail\n**验证耗时**: 0.22秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:03:34,192 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524793_4
-2026-03-03 16:03:34,192 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:03:34,192 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 16:03:34,687 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524793_4, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP174260303A003, IPQC单号=IPQC2603030431, 耗时: 0.49秒
-2026-03-03 16:03:34,877 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:03:34\n**任务ID**: task_1772524793_4\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP174260303A003\n**IPQC单号**: IPQC2603030431\n**预期结果**: pass\n**验证耗时**: 0.49秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP174260303A003, IPQC单号=IPQC2603030431\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:03:34,882 - INFO - excel_verifier.py:185 - 已保存 3 个任务到文件: verify_tasks.json
-2026-03-03 16:03:34,882 - INFO - excel_verifier.py:508 - 剩余 3 个任务
-2026-03-03 16:04:34,885 - INFO - excel_verifier.py:544 - 等待 1.0 分钟后再次检查...
-2026-03-03 16:04:34,885 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 3 个任务
-2026-03-03 16:04:34,885 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521963_2
-2026-03-03 16:04:34,886 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:04:34,886 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 16:04:34,887 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 16:04:34,887 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 16:04:35,079 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:04:34\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:04:35,081 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524252_2
-2026-03-03 16:04:35,081 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:04:35,082 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F04B002
-2026-03-03 16:04:35,509 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524252_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435, 耗时: 0.43秒
-2026-03-03 16:04:35,666 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:04:35\n**任务ID**: task_1772524252_2\n**产品编号**: LYHS30F04B002\n**生产批号**: CBL002260303A002\n**IPQC单号**: IPQC2603030435\n**预期结果**: fail\n**验证耗时**: 0.43秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:04:35,667 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524793_4
-2026-03-03 16:04:35,668 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:04:35,668 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 16:04:36,344 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524793_4, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP174260303A003, IPQC单号=IPQC2603030431, 耗时: 0.68秒
-2026-03-03 16:04:36,536 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:04:36\n**任务ID**: task_1772524793_4\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP174260303A003\n**IPQC单号**: IPQC2603030431\n**预期结果**: pass\n**验证耗时**: 0.68秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP174260303A003, IPQC单号=IPQC2603030431\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:04:36,539 - INFO - excel_verifier.py:185 - 已保存 3 个任务到文件: verify_tasks.json
-2026-03-03 16:04:36,539 - INFO - excel_verifier.py:508 - 剩余 3 个任务
-2026-03-03 16:04:55,073 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772525095_4
-2026-03-03 16:04:55,452 - INFO - excel_verifier.py:514 - 已添加验证任务: task_1772525095_5
-2026-03-03 16:05:36,541 - INFO - excel_verifier.py:544 - 等待 1.0 分钟后再次检查...
-2026-03-03 16:05:36,542 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 5 个任务
-2026-03-03 16:05:36,542 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772521963_2
-2026-03-03 16:05:36,543 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:05:36,543 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 16:05:36,544 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 16:05:36,544 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 16:05:37,247 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:05:36\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:05:37,249 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524252_2
-2026-03-03 16:05:37,249 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:05:37,250 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F04B002
-2026-03-03 16:05:37,471 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524252_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435, 耗时: 0.22秒
-2026-03-03 16:05:38,096 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:05:37\n**任务ID**: task_1772524252_2\n**产品编号**: LYHS30F04B002\n**生产批号**: CBL002260303A002\n**IPQC单号**: IPQC2603030435\n**预期结果**: fail\n**验证耗时**: 0.22秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:05:38,100 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772524793_4
-2026-03-03 16:05:38,108 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:05:38,109 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 16:05:38,688 - ERROR - excel_verifier.py:498 - 任务验证失败: task_1772524793_4, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP174260303A003, IPQC单号=IPQC2603030431, 耗时: 0.58秒
-2026-03-03 16:05:39,267 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:05:38\n**任务ID**: task_1772524793_4\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP174260303A003\n**IPQC单号**: IPQC2603030431\n**预期结果**: pass\n**验证耗时**: 0.58秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP174260303A003, IPQC单号=IPQC2603030431\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:05:39,269 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772525095_4
-2026-03-03 16:05:39,269 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:05:39,269 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F02D005
-2026-03-03 16:05:47,701 - INFO - excel_verifier.py:338 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F02D005/5101-2601150016/TAP34/TAP034260303A002~B1 IPQC2603030440 Pass.xlsx
-2026-03-03 16:05:48,250 - INFO - excel_verifier.py:495 - 任务验证成功: task_1772525095_4, 耗时: 8.98秒
-2026-03-03 16:05:48,251 - INFO - excel_verifier.py:489 - 开始验证任务: task_1772525095_5
-2026-03-03 16:05:48,251 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:05:48,251 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F02C003
-2026-03-03 16:05:50,355 - INFO - excel_verifier.py:338 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS30F02C003/5101-2601150007/TAP76/TAP076260303A001~B1 IPQC2603030445 Fail.xlsx
-2026-03-03 16:05:50,694 - INFO - excel_verifier.py:495 - 任务验证成功: task_1772525095_5, 耗时: 2.44秒
-2026-03-03 16:05:50,695 - INFO - excel_verifier.py:185 - 已保存 3 个任务到文件: verify_tasks.json
-2026-03-03 16:05:50,695 - INFO - excel_verifier.py:508 - 剩余 3 个任务
-2026-03-03 16:06:46,686 - INFO - excel_verifier.py:546 - 验证程序被用户中断
-2026-03-03 16:06:48,813 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 3 个任务
-2026-03-03 16:06:48,814 - INFO - excel_verifier.py:564 - 开始运行Excel验证程序，间隔 5.0 分钟
-2026-03-03 16:06:48,814 - INFO - excel_verifier.py:567 - 启动时测试挂载点...
-2026-03-03 16:06:48,814 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:06:48,815 - INFO - excel_verifier.py:163 - 从文件 verify_tasks.json 加载了 3 个任务
-2026-03-03 16:06:48,815 - INFO - excel_verifier.py:529 - 开始验证任务: task_1772521963_2
-2026-03-03 16:06:48,815 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:06:48,815 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 16:06:48,816 - ERROR - excel_verifier.py:309 - 产品文件夹不存在: /mnt/smb_share/测试报告 20250402/LYHS28F02DZH3D
-2026-03-03 16:06:48,816 - ERROR - excel_verifier.py:540 - 任务验证失败: task_1772521963_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018, 耗时: 0.00秒
-2026-03-03 16:06:49,008 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:06:48\n**任务ID**: task_1772521963_2\n**产品编号**: LYHS28F02DZH3D\n**生产批号**: YTAP164260303B002\n**IPQC单号**: IPQC2603030018\n**预期结果**: pass\n**验证耗时**: 0.00秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS28F02DZH3D, 生产批号=YTAP164260303B002, IPQC单号=IPQC2603030018\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:06:49,010 - INFO - excel_verifier.py:529 - 开始验证任务: task_1772524252_2
-2026-03-03 16:06:49,010 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:06:49,011 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F04B002
-2026-03-03 16:06:49,026 - ERROR - excel_verifier.py:540 - 任务验证失败: task_1772524252_2, 错误: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435, 耗时: 0.02秒
-2026-03-03 16:06:49,192 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:06:49\n**任务ID**: task_1772524252_2\n**产品编号**: LYHS30F04B002\n**生产批号**: CBL002260303A002\n**IPQC单号**: IPQC2603030435\n**预期结果**: fail\n**验证耗时**: 0.02秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS30F04B002, 生产批号=CBL002260303A002, IPQC单号=IPQC2603030435\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:06:49,194 - INFO - excel_verifier.py:529 - 开始验证任务: task_1772524793_4
-2026-03-03 16:06:49,195 - INFO - excel_verifier.py:280 - 挂载点测试成功: /mnt/smb_share
-2026-03-03 16:06:49,195 - INFO - excel_verifier.py:305 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
-2026-03-03 16:06:50,325 - ERROR - excel_verifier.py:540 - 任务验证失败: task_1772524793_4, 错误: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP174260303A003, IPQC单号=IPQC2603030431, 耗时: 1.13秒
-2026-03-03 16:06:50,532 - INFO - excel_verifier.py:113 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': 'Excel验证错误通知', 'text': '# Excel验证错误\n\n**错误时间**: 2026-03-03 16:06:50\n**任务ID**: task_1772524793_4\n**产品编号**: LYHS32F16B005\n**生产批号**: TAP174260303A003\n**IPQC单号**: IPQC2603030431\n**预期结果**: pass\n**验证耗时**: 1.13秒\n**错误信息**: 未找到匹配的Excel文件: 产品编号=LYHS32F16B005, 生产批号=TAP174260303A003, IPQC单号=IPQC2603030431\n'}, 'at': {'isAtAll': True}}
-2026-03-03 16:06:50,535 - INFO - excel_verifier.py:185 - 已保存 3 个任务到文件: verify_tasks.json
-2026-03-03 16:06:50,535 - INFO - excel_verifier.py:550 - 剩余 3 个任务
-2026-03-03 16:07:15,128 - INFO - excel_verifier.py:588 - 验证程序被用户中断
+2026-03-05 09:33:42,321 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 09:33:42,322 - INFO - excel_verifier.py:222 - 从文件 special_paths.json 加载了特殊路径映射
+2026-03-05 09:33:42,323 - INFO - excel_verifier.py:728 - 开始运行Excel验证程序，间隔 5.0 分钟
+2026-03-05 09:33:42,324 - INFO - excel_verifier.py:731 - 启动时测试挂载点...
+2026-03-05 09:33:42,325 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 09:33:42,329 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 09:33:42,329 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 09:33:42,330 - INFO - excel_verifier.py:1113 - HTTP服务器已启动，监听端口 8090
+2026-03-05 09:34:17,333 - INFO - excel_verifier.py:306 - 收到命令: change_interval，参数: {'interval': 1.0}
+2026-03-05 09:34:17,334 - INFO - excel_verifier.py:314 - 检查间隔已修改为 1.0 分钟
+2026-03-05 09:34:17,335 - INFO - excel_verifier.py:755 - 检查间隔已更改，新的等待时间: 60.0秒
+2026-03-05 09:34:38,678 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 09:35:17,338 - INFO - excel_verifier.py:757 - 等待 1.0 分钟后再次检查...
+2026-03-05 09:35:17,338 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 1 个任务
+2026-03-05 09:35:17,339 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 09:35:17,340 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 09:35:17,340 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
+2026-03-05 09:35:17,367 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F16B005/5102-2602110001/TAP172/TAP172260305A002~B1 IPQC2603050334 Pass.xlsx
+2026-03-05 09:35:18,006 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 0.67秒
+2026-03-05 09:35:18,008 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 09:35:18,008 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 09:35:18,009 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 09:35:39,217 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 09:35:39,637 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 09:36:18,011 - INFO - excel_verifier.py:757 - 等待 1.0 分钟后再次检查...
+2026-03-05 09:36:18,012 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 09:36:18,013 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 09:36:18,014 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 09:36:18,014 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
+2026-03-05 09:36:18,250 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F16B005/5102-2602110003/TAP167/TAP167260305A002~B1 IPQC2603050321 Pass.xlsx
+2026-03-05 09:36:18,665 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 0.65秒
+2026-03-05 09:36:18,666 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 09:36:18,666 - INFO - excel_verifier.py:693 - 开始验证任务: 260305002
+2026-03-05 09:36:18,667 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 09:36:18,667 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS29F02D014
+2026-03-05 09:36:18,677 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS29F02D014/5101-2602250005/TAP65/TAP065260305B001~B1 IPQC2603050336 Pass.xlsx
+2026-03-05 09:36:19,094 - INFO - excel_verifier.py:699 - 任务验证成功: 260305002, 耗时: 0.43秒
+2026-03-05 09:36:19,096 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305002
+2026-03-05 09:36:19,096 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 09:36:19,097 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 09:36:40,180 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 09:37:19,099 - INFO - excel_verifier.py:757 - 等待 1.0 分钟后再次检查...
+2026-03-05 09:37:19,100 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 1 个任务
+2026-03-05 09:37:19,100 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 09:37:19,101 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 09:37:19,101 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F02C003
+2026-03-05 09:37:20,643 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS30F02C003/5101-2602100012/TAP78/TAP078260305A001~B1 IPQC2603050341 Pass.xlsx
+2026-03-05 09:37:21,028 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 1.93秒
+2026-03-05 09:37:21,030 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 09:37:21,031 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 09:37:21,031 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 09:38:21,034 - INFO - excel_verifier.py:757 - 等待 1.0 分钟后再次检查...
+2026-03-05 09:38:21,035 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 09:38:21,035 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 09:39:21,037 - INFO - excel_verifier.py:757 - 等待 1.0 分钟后再次检查...
+2026-03-05 09:39:21,037 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 09:39:21,038 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 09:40:21,040 - INFO - excel_verifier.py:757 - 等待 1.0 分钟后再次检查...
+2026-03-05 09:40:21,040 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 09:40:21,040 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 09:41:21,042 - INFO - excel_verifier.py:757 - 等待 1.0 分钟后再次检查...
+2026-03-05 09:41:21,044 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 09:41:21,044 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 09:41:41,085 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 09:42:06,046 - INFO - excel_verifier.py:306 - 收到命令: change_interval，参数: {'interval': 5.0}
+2026-03-05 09:42:06,048 - INFO - excel_verifier.py:314 - 检查间隔已修改为 5.0 分钟
+2026-03-05 09:42:06,049 - INFO - excel_verifier.py:755 - 检查间隔已更改，新的等待时间: 300.0秒
+2026-03-05 09:44:42,039 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 09:47:06,061 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 09:47:06,063 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 09:47:06,063 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 09:47:06,065 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 09:47:06,066 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
+2026-03-05 09:47:06,143 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F16B005/5102-2602110011/TAP106/TAP106260305A002~B1 IPQC2603050337 Pass.xlsx
+2026-03-05 09:47:06,540 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 0.48秒
+2026-03-05 09:47:06,541 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 09:47:06,541 - INFO - excel_verifier.py:693 - 开始验证任务: 260305002
+2026-03-05 09:47:06,541 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 09:47:06,541 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
+2026-03-05 09:47:06,623 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F16B005/5102-2602110013/TAP107/TAP107260305A002~B1 IPQC2603050302 Pass.xlsx
+2026-03-05 09:47:07,018 - INFO - excel_verifier.py:699 - 任务验证成功: 260305002, 耗时: 0.48秒
+2026-03-05 09:47:07,019 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305002
+2026-03-05 09:47:07,020 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 09:47:07,020 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 09:49:42,552 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 09:50:43,602 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 09:52:07,031 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 09:52:07,042 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 09:52:07,043 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 09:52:07,044 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 09:52:07,047 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F02D005
+2026-03-05 09:52:09,497 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F02D005/5101-2601070004/TAP034/TAP034260305A002~B1 IPQC2603050308 Pass.xlsx
+2026-03-05 09:52:09,871 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 2.83秒
+2026-03-05 09:52:09,872 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 09:52:09,872 - INFO - excel_verifier.py:693 - 开始验证任务: 260305002
+2026-03-05 09:52:09,873 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 09:52:09,873 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
+2026-03-05 09:52:09,900 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F16B005/5102-2602110004/TAP168/TAP168260305A002~B1 IPQC2603050345 Pass.xlsx
+2026-03-05 09:52:10,618 - INFO - excel_verifier.py:699 - 任务验证成功: 260305002, 耗时: 0.75秒
+2026-03-05 09:52:10,621 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305002
+2026-03-05 09:52:10,622 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 09:52:10,623 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 09:57:10,635 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 09:57:10,637 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 09:57:10,637 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 10:02:10,647 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:02:10,648 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 10:02:10,648 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 10:06:46,952 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 10:07:10,661 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:07:10,661 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 1 个任务
+2026-03-05 10:07:10,662 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 10:07:10,663 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:07:10,663 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F02D016
+2026-03-05 10:07:10,721 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F02D016/5111-2601260002/TAP063/TAP063260305A001~B1 IPQC2603050344 Fail.xlsx
+2026-03-05 10:07:11,114 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 0.45秒
+2026-03-05 10:07:11,115 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 10:07:11,115 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 10:07:11,116 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 10:12:11,126 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:12:11,127 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 10:12:11,128 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 10:14:48,622 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 10:17:11,138 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:17:11,139 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 1 个任务
+2026-03-05 10:17:11,139 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 10:17:11,140 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:17:11,140 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
+2026-03-05 10:17:11,155 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F16B005/5101-2602110001/CBL003/CBL003260305B001~B4 IPQC2603050347 Fail.xlsx
+2026-03-05 10:17:11,558 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 0.42秒
+2026-03-05 10:17:11,559 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 10:17:11,560 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 10:17:11,560 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 10:17:49,417 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 10:20:50,450 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 10:22:11,572 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:22:11,573 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 10:22:11,573 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 10:22:11,574 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:22:11,574 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F02C003
+2026-03-05 10:22:13,535 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS30F02C003/5101-2602100008/TAP86/TAP086260305B001~B1 IPQC2603050359 Pass.xlsx
+2026-03-05 10:22:13,911 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 2.34秒
+2026-03-05 10:22:13,914 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 10:22:13,914 - INFO - excel_verifier.py:693 - 开始验证任务: 260305002
+2026-03-05 10:22:13,915 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:22:13,916 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
+2026-03-05 10:22:13,993 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F16B005/5102-2602110005/TAP166/TAP166260305B002~B1 #4 IPQC2603050367 Pass.xlsx
+2026-03-05 10:22:14,396 - INFO - excel_verifier.py:699 - 任务验证成功: 260305002, 耗时: 0.48秒
+2026-03-05 10:22:14,398 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305002
+2026-03-05 10:22:14,399 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 10:22:14,399 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 10:27:14,415 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:27:14,416 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 10:27:14,417 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 10:29:52,920 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 10:30:53,628 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 1 个任务
+2026-03-05 10:30:53,628 - ERROR - excel_verifier.py:664 - 未找到任务: task_1772671142_1
+2026-03-05 10:30:53,772 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 10:32:14,428 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:32:14,429 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 10:32:14,429 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 10:32:14,430 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:32:14,430 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS29F02D014
+2026-03-05 10:32:14,443 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS29F02D014/5101-2602250004/TAP52/TAP052260305A002~B1 IPQC2603050324 Pass.xlsx
+2026-03-05 10:32:14,933 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 0.50秒
+2026-03-05 10:32:14,934 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 10:32:14,934 - INFO - excel_verifier.py:693 - 开始验证任务: 260305002
+2026-03-05 10:32:14,935 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:32:14,935 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F02C003
+2026-03-05 10:32:15,741 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS30F02C003/5101-2602100010/TAP82/TAP082260305A001~B1 IPQC2603050329 Pass.xlsx
+2026-03-05 10:32:16,093 - INFO - excel_verifier.py:699 - 任务验证成功: 260305002, 耗时: 1.16秒
+2026-03-05 10:32:16,095 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305002
+2026-03-05 10:32:16,095 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 10:32:16,095 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 10:37:16,118 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:37:16,118 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 10:37:16,118 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 10:37:55,624 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 10:42:16,130 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:42:16,130 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 1 个任务
+2026-03-05 10:42:16,131 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 10:42:16,131 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:42:16,131 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS29F02D014
+2026-03-05 10:42:16,136 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS29F02D014/5101-2602250002/TAP70/TAP070260305B002~B2 IPQC2603050370 Pass.xlsx
+2026-03-05 10:42:16,561 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 0.43秒
+2026-03-05 10:42:16,563 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 10:42:16,563 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 10:42:16,564 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 10:46:58,055 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 10:47:16,574 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:47:16,576 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 1 个任务
+2026-03-05 10:47:16,576 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 10:47:16,577 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:47:16,577 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F02C003
+2026-03-05 10:47:18,035 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS30F02C003/5101-2602100006/TAP75/TAP075260305B001~B3 IPQC2603050381 Fail.xlsx
+2026-03-05 10:47:18,329 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 1.75秒
+2026-03-05 10:47:18,329 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 10:47:18,329 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 10:47:18,330 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 10:48:58,939 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 10:49:59,496 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 10:52:18,340 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:52:18,341 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 10:52:18,342 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 10:52:18,343 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:52:18,343 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
+2026-03-05 10:52:18,600 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F16B005/5102-2602110008/TAP175/TAP175260305A002~B1 IPQC2603050375 Fail.xlsx
+2026-03-05 10:52:18,948 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 0.61秒
+2026-03-05 10:52:18,949 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 10:52:18,949 - INFO - excel_verifier.py:693 - 开始验证任务: 260305002
+2026-03-05 10:52:18,949 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:52:18,949 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F02D016
+2026-03-05 10:52:19,503 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F02D016/5111-2601260002/TAP064/TAP064260305A001~B1 IPQC2603050363 Pass.xlsx
+2026-03-05 10:52:19,884 - INFO - excel_verifier.py:699 - 任务验证成功: 260305002, 耗时: 0.93秒
+2026-03-05 10:52:19,886 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305002
+2026-03-05 10:52:19,887 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 10:52:19,888 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 10:53:00,794 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 10:56:02,018 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 10:57:02,651 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305003
+2026-03-05 10:57:19,900 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 10:57:19,901 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 3 个任务
+2026-03-05 10:57:19,902 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 10:57:19,904 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:57:19,904 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F02C003
+2026-03-05 10:57:21,386 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS30F02C003/5101-2602100006/TAP73/TAP073260305A001~B1 IPQC2603050380 Pass.xlsx
+2026-03-05 10:57:21,731 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 1.83秒
+2026-03-05 10:57:21,732 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 10:57:21,733 - INFO - excel_verifier.py:693 - 开始验证任务: 260305002
+2026-03-05 10:57:21,733 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:57:21,733 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS29F02D014
+2026-03-05 10:57:21,797 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS29F02D014/5101-2602250005/TAP67/TAP067260305A002~B1 IPQC2603050374 Pass.xlsx
+2026-03-05 10:57:22,276 - INFO - excel_verifier.py:699 - 任务验证成功: 260305002, 耗时: 0.54秒
+2026-03-05 10:57:22,278 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305002
+2026-03-05 10:57:22,278 - INFO - excel_verifier.py:693 - 开始验证任务: 260305003
+2026-03-05 10:57:22,278 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 10:57:22,279 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30P16A001
+2026-03-05 10:57:22,347 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS30P16A001/5102-2601130017/TAP189/TAP189260305B002~B3 IPQC2603050369 NG.xlsx
+2026-03-05 10:57:22,660 - INFO - excel_verifier.py:699 - 任务验证成功: 260305003, 耗时: 0.38秒
+2026-03-05 10:57:22,661 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305003
+2026-03-05 10:57:22,662 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 10:57:22,663 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 10:58:03,242 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 11:02:22,674 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 11:02:22,674 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 1 个任务
+2026-03-05 11:02:22,675 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 11:02:22,676 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 11:02:22,676 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F02D016
+2026-03-05 11:02:22,938 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F02D016/5111-2601260002/TAP056/TAP056260305A001~B1 IPQC2603050317 Pass.xlsx
+2026-03-05 11:02:23,373 - INFO - excel_verifier.py:699 - 任务验证成功: 260305001, 耗时: 0.70秒
+2026-03-05 11:02:23,374 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305001
+2026-03-05 11:02:23,375 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 11:02:23,375 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 11:05:05,304 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 11:05:05,729 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 11:07:23,386 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 11:07:23,387 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 11:07:23,388 - INFO - excel_verifier.py:693 - 开始验证任务: 260305001
+2026-03-05 11:07:23,389 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 11:07:23,389 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS29F02D014
+2026-03-05 11:07:23,412 - ERROR - excel_verifier.py:704 - 任务验证失败: 260305001, 错误: 未找到匹配的Excel文件: 产品编号=LYHS29F02D014, 生产批号=TAP072260305A002, IPQC单号=IPQC2603050389, 耗时: 0.02秒
+2026-03-05 11:07:23,625 - INFO - excel_verifier.py:134 - 错误通知发送成功: {'msgtype': 'actionCard', 'actionCard': {'title': '电气报告验证错误', 'text': '# 电气报告验证错误\n\n**错误时间**: 2026-03-05 11:07:23\n\n**任务ID**: 260305001\n\n**产品编号**: LYHS29F02D014\t\n\n**生产批号**: TAP072260305A002\n\n**IPQC单号**: IPQC2603050389\n\n**预期结果**: fail\n\n**验证耗时**: 0.02秒\n\n**错误信息**:\n未找到匹配的Excel文件: 产品编号=LYHS29F02D014, 生产批号=TAP072260305A002, IPQC单号=IPQC2603050389\n', 'btnOrientation': '0', 'btns': [{'title': '已处理，不再追踪', 'actionURL': 'http://172.16.60.31:8090/process_task?task_id=260305001'}]}}
+2026-03-05 11:07:23,628 - INFO - excel_verifier.py:693 - 开始验证任务: 260305002
+2026-03-05 11:07:23,629 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 11:07:23,630 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS29F02D014
+2026-03-05 11:07:23,640 - ERROR - excel_verifier.py:704 - 任务验证失败: 260305002, 错误: 未找到匹配的Excel文件: 产品编号=LYHS29F02D014, 生产批号=TAP050260305A002, IPQC单号=IPQC2603050351, 耗时: 0.01秒
+2026-03-05 11:07:23,810 - INFO - excel_verifier.py:134 - 错误通知发送成功: {'msgtype': 'actionCard', 'actionCard': {'title': '电气报告验证错误', 'text': '# 电气报告验证错误\n\n**错误时间**: 2026-03-05 11:07:23\n\n**任务ID**: 260305002\n\n**产品编号**: LYHS29F02D014\t\n\n**生产批号**: TAP050260305A002\n\n**IPQC单号**: IPQC2603050351\n\n**预期结果**: fail\n\n**验证耗时**: 0.01秒\n\n**错误信息**:\n未找到匹配的Excel文件: 产品编号=LYHS29F02D014, 生产批号=TAP050260305A002, IPQC单号=IPQC2603050351\n', 'btnOrientation': '0', 'btns': [{'title': '已处理，不再追踪', 'actionURL': 'http://172.16.60.31:8090/process_task?task_id=260305002'}]}}
+2026-03-05 11:07:23,814 - INFO - excel_verifier.py:256 - 已保存 2 个任务到文件: verify_tasks.json
+2026-03-05 11:07:23,814 - INFO - excel_verifier.py:714 - 剩余 2 个任务
+2026-03-05 11:07:50,544 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 11:07:50,723 - INFO - excel_verifier.py:134 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': '任务已处理通知', 'text': '# 任务已处理通知\n\n**处理时间**: 2026-03-05 11:07:50\n\n**任务ID**: 260305002\n\n**产品编号**: LYHS29F02D014\t\n\n**生产批号**: TAP050260305A002\n\n**IPQC单号**: IPQC2603050351\n\n**状态**: 已确认，不再跟踪\n'}, 'at': {'isAtAll': False}}
+2026-03-05 11:07:50,726 - INFO - excel_verifier.py:256 - 已保存 1 个任务到文件: verify_tasks.json
+2026-03-05 11:07:50,726 - INFO - excel_verifier.py:661 - 任务 260305002 已处理，从任务列表中移除
+2026-03-05 11:07:53,950 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 1 个任务
+2026-03-05 11:07:54,123 - INFO - excel_verifier.py:134 - 错误通知发送成功: {'msgtype': 'markdown', 'markdown': {'title': '任务已处理通知', 'text': '# 任务已处理通知\n\n**处理时间**: 2026-03-05 11:07:53\n\n**任务ID**: 260305001\n\n**产品编号**: LYHS29F02D014\t\n\n**生产批号**: TAP072260305A002\n\n**IPQC单号**: IPQC2603050389\n\n**状态**: 已确认，不再跟踪\n'}, 'at': {'isAtAll': False}}
+2026-03-05 11:07:54,128 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 11:07:54,128 - INFO - excel_verifier.py:661 - 任务 260305001 已处理，从任务列表中移除
+2026-03-05 11:08:07,218 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 11:10:08,014 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 11:12:08,828 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305003
+2026-03-05 11:12:23,825 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 11:12:23,825 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 3 个任务
+2026-03-05 11:12:23,825 - INFO - excel_verifier.py:690 - 任务 260305001 已处理，跳过验证
+2026-03-05 11:12:23,825 - INFO - excel_verifier.py:690 - 任务 260305002 已处理，跳过验证
+2026-03-05 11:12:23,825 - INFO - excel_verifier.py:693 - 开始验证任务: 260305003
+2026-03-05 11:12:23,826 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 11:12:23,826 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F02D016
+2026-03-05 11:12:24,104 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F02D016/5111-2601260002/TAP063/TAP063260305A001~B2 IPQC2603050379 Fail.xlsx
+2026-03-05 11:12:24,564 - INFO - excel_verifier.py:699 - 任务验证成功: 260305003, 耗时: 0.74秒
+2026-03-05 11:12:24,565 - INFO - excel_verifier.py:619 - 已保存成功记录: 260305003
+2026-03-05 11:12:24,566 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 11:12:24,566 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 11:17:24,581 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 11:17:24,581 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 0 个任务
+2026-03-05 11:17:24,582 - INFO - excel_verifier.py:679 - 没有待验证任务
+2026-03-05 11:19:11,298 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 11:21:12,223 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 11:22:24,593 - INFO - excel_verifier.py:757 - 等待 5.0 分钟后再次检查...
+2026-03-05 11:22:24,594 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 11:22:24,594 - INFO - excel_verifier.py:690 - 任务 260305001 已处理，跳过验证
+2026-03-05 11:22:24,594 - INFO - excel_verifier.py:690 - 任务 260305002 已处理，跳过验证
+2026-03-05 11:22:24,595 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 11:22:24,595 - INFO - excel_verifier.py:716 - 所有任务已完成
+2026-03-05 11:23:13,136 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305001
+2026-03-05 11:25:13,917 - INFO - excel_verifier.py:838 - 已添加验证任务: 260305002
+2026-03-05 11:25:33,848 - INFO - excel_verifier.py:759 - 验证程序被用户中断
+2026-03-05 11:25:36,112 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 11:25:36,112 - INFO - excel_verifier.py:222 - 从文件 special_paths.json 加载了特殊路径映射
+2026-03-05 11:25:36,113 - INFO - excel_verifier.py:760 - 开始运行Excel验证程序，间隔 5.0 分钟
+2026-03-05 11:25:36,114 - INFO - excel_verifier.py:763 - 启动时测试挂载点...
+2026-03-05 11:25:36,115 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 11:25:36,116 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 2 个任务
+2026-03-05 11:25:36,116 - INFO - excel_verifier.py:723 - 开始验证任务: 260305001
+2026-03-05 11:25:36,116 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 11:25:36,117 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F02D016
+2026-03-05 11:25:36,125 - INFO - excel_verifier.py:1151 - HTTP服务器已启动，监听端口 8090
+2026-03-05 11:25:36,607 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F02D016/5111-2601260002/TAP055/TAP055260305B001~B5 IPQC2603050390 Pass.xlsx
+2026-03-05 11:25:37,245 - INFO - excel_verifier.py:729 - 任务验证成功: 260305001, 耗时: 1.13秒
+2026-03-05 11:25:37,246 - INFO - excel_verifier.py:731 - 验证详情: 预期结果=pass, 查找到的文件=/mnt/smb_share/测试报告 20250402/LYHS32F02D016/5111-2601260002/TAP055/TAP055260305B001~B5 IPQC2603050390 Pass.xlsx, 文件名关键字=pass, 检查单元格=F11, 单元格结果=Pass
+2026-03-05 11:25:37,247 - INFO - excel_verifier.py:649 - 已保存成功记录: 260305001
+2026-03-05 11:25:37,247 - INFO - excel_verifier.py:723 - 开始验证任务: 260305002
+2026-03-05 11:25:37,247 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 11:25:37,247 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS30F02C003
+2026-03-05 11:25:39,224 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS30F02C003/5101-2602100010/TAP83/TAP083260305A001~B1 IPQC2603050398 Pass.xlsx
+2026-03-05 11:25:39,574 - INFO - excel_verifier.py:729 - 任务验证成功: 260305002, 耗时: 2.33秒
+2026-03-05 11:25:39,574 - INFO - excel_verifier.py:731 - 验证详情: 预期结果=pass, 查找到的文件=/mnt/smb_share/测试报告 20250402/LYHS30F02C003/5101-2602100010/TAP83/TAP083260305A001~B1 IPQC2603050398 Pass.xlsx, 文件名关键字=pass, 检查单元格=F11, 单元格结果=Pass
+2026-03-05 11:25:39,575 - INFO - excel_verifier.py:649 - 已保存成功记录: 260305002
+2026-03-05 11:25:39,576 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 11:25:39,576 - INFO - excel_verifier.py:748 - 所有任务已完成
+2026-03-05 11:26:45,045 - INFO - excel_verifier.py:876 - 已添加验证任务: 260305001
+2026-03-05 11:30:39,597 - INFO - excel_verifier.py:789 - 等待 5.0 分钟后再次检查...
+2026-03-05 11:30:39,599 - INFO - excel_verifier.py:192 - 从文件 verify_tasks.json 加载了 1 个任务
+2026-03-05 11:30:39,599 - INFO - excel_verifier.py:723 - 开始验证任务: 260305001
+2026-03-05 11:30:39,600 - INFO - excel_verifier.py:351 - 挂载点测试成功: /mnt/smb_share
+2026-03-05 11:30:39,600 - INFO - excel_verifier.py:379 - 查找产品文件夹: /mnt/smb_share/测试报告 20250402/LYHS32F16B005
+2026-03-05 11:30:40,065 - INFO - excel_verifier.py:412 - 找到匹配的Excel文件: /mnt/smb_share/测试报告 20250402/LYHS32F16B005/5102-2602110016/TAP173/TAP173260305A002~B1 IPQC2603050388 Fail.xlsx
+2026-03-05 11:30:40,450 - INFO - excel_verifier.py:729 - 任务验证成功: 260305001, 耗时: 0.85秒
+2026-03-05 11:30:40,451 - INFO - excel_verifier.py:731 - 验证详情: 预期结果=fail, 查找到的文件=/mnt/smb_share/测试报告 20250402/LYHS32F16B005/5102-2602110016/TAP173/TAP173260305A002~B1 IPQC2603050388 Fail.xlsx, 文件名关键字=fail, 检查单元格=F11, 单元格结果=Fail
+2026-03-05 11:30:40,453 - INFO - excel_verifier.py:649 - 已保存成功记录: 260305001
+2026-03-05 11:30:40,454 - INFO - excel_verifier.py:256 - 已保存 0 个任务到文件: verify_tasks.json
+2026-03-05 11:30:40,455 - INFO - excel_verifier.py:748 - 所有任务已完成
+2026-03-05 11:31:46,527 - INFO - excel_verifier.py:876 - 已添加验证任务: 260305002
+2026-03-05 11:31:46,895 - INFO - excel_verifier.py:876 - 已添加验证任务: 260305003
+2026-03-05 11:31:47,285 - INFO - excel_verifier.py:876 - 已添加验证任务: 260305004

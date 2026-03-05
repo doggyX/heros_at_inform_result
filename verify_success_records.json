@@ -1,0 +1,56 @@
+[
+  {
+    "task_id": "260305001",
+    "product_code": "LYHS32F02D016\t",
+    "batch_no": "TAP055260305B001",
+    "ipqc_no": "IPQC2603050390",
+    "result": "pass",
+    "verified_at": "2026-03-05T11:25:37.247022",
+    "elapsed_time": 1.128920078277588,
+    "status": "success",
+    "verify_details": {
+      "expected_result": "pass",
+      "file_path": "/mnt/smb_share/测试报告 20250402/LYHS32F02D016/5111-2601260002/TAP055/TAP055260305B001~B5 IPQC2603050390 Pass.xlsx",
+      "file_name": "TAP055260305B001~B5 IPQC2603050390 Pass.xlsx",
+      "file_result_keyword": "pass",
+      "cell_checked": "F11",
+      "cell_value": "Pass"
+    }
+  },
+  {
+    "task_id": "260305002",
+    "product_code": "LYHS30F02C003",
+    "batch_no": "TAP083260305A001",
+    "ipqc_no": "IPQC2603050398",
+    "result": "pass",
+    "verified_at": "2026-03-05T11:25:39.575335",
+    "elapsed_time": 2.3267247676849365,
+    "status": "success",
+    "verify_details": {
+      "expected_result": "pass",
+      "file_path": "/mnt/smb_share/测试报告 20250402/LYHS30F02C003/5101-2602100010/TAP83/TAP083260305A001~B1 IPQC2603050398 Pass.xlsx",
+      "file_name": "TAP083260305A001~B1 IPQC2603050398 Pass.xlsx",
+      "file_result_keyword": "pass",
+      "cell_checked": "F11",
+      "cell_value": "Pass"
+    }
+  },
+  {
+    "task_id": "260305001",
+    "product_code": "LYHS32F16B005",
+    "batch_no": "TAP173260305A002",
+    "ipqc_no": "IPQC2603050388",
+    "result": "fail",
+    "verified_at": "2026-03-05T11:30:40.452917",
+    "elapsed_time": 0.8503000736236572,
+    "status": "success",
+    "verify_details": {
+      "expected_result": "fail",
+      "file_path": "/mnt/smb_share/测试报告 20250402/LYHS32F16B005/5102-2602110016/TAP173/TAP173260305A002~B1 IPQC2603050388 Fail.xlsx",
+      "file_name": "TAP173260305A002~B1 IPQC2603050388 Fail.xlsx",
+      "file_result_keyword": "fail",
+      "cell_checked": "F11",
+      "cell_value": "Fail"
+    }
+  }
+]

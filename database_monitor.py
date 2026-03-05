@@ -666,14 +666,20 @@ class DatabaseMonitor:
                                         
                                         # 添加验证任务
                                         new_result = change['new_result']
-                                        task_data = {
-                                            'product_code': record.get('产品编号', ''),
-                                            'batch_no': record.get('生产批号', ''),
-                                            'ipqc_no': record.get('IPQC单号', ''),
-                                            'result': new_result
-                                        }
-                                        task_id = self.task_manager.add_verify_task(task_data)
-                                        logger.info(f"已添加验证任务: {task_id} 对应产品: {task_data['product_code']}, 批号: {task_data['batch_no']}, IPQC: {task_data['ipqc_no']}")
+                                        batch_no = record.get('生产批号', '')
+                                        
+                                        # 如果生产批号以Y开头，则无需加入核对任务
+                                        if batch_no.startswith('Y'):
+                                            logger.info(f"生产批号以Y开头，跳过核对任务: {batch_no}")
+                                        else:
+                                            task_data = {
+                                                'product_code': record.get('产品编号', ''),
+                                                'batch_no': batch_no,
+                                                'ipqc_no': record.get('IPQC单号', ''),
+                                                'result': new_result
+                                            }
+                                            task_id = self.task_manager.add_verify_task(task_data)
+                                            logger.info(f"已添加验证任务: {task_id} 对应产品: {task_data['product_code']}, 批号: {task_data['batch_no']}, IPQC: {task_data['ipqc_no']}")
                                     # 发送第二条消息：text类型，只用@创建人员
                                     self.robot.send_message(at_users=[creator] if creator else None, msgtype="text")
                                     # time.sleep(3)
