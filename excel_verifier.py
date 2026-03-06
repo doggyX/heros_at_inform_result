@@ -581,6 +581,7 @@ class ExcelVerifier:
             content += f"**生产批号**: {task.get('batch_no', '未知')}\n\n"
             content += f"**IPQC单号**: {task.get('ipqc_no', '未知')}\n\n"
             content += f"**预期结果**: {task.get('result', '未知')}\n\n"
+            content += f"**备注**: {task.get('remark', '无')}\n\n"
             content += f"**验证耗时**: {elapsed_time:.2f}秒\n\n"
             content += f"**错误信息**:\n{error_message}\n"
             
@@ -626,6 +627,7 @@ class ExcelVerifier:
                 'batch_no': task.get('batch_no'),
                 'ipqc_no': task.get('ipqc_no'),
                 'result': task.get('result'),
+                'remark': task.get('remark', ''),
                 'verified_at': datetime.now().isoformat(),
                 'elapsed_time': elapsed_time,
                 'status': 'success',
@@ -680,6 +682,7 @@ class ExcelVerifier:
                 content += f"**产品编号**: {task_to_process.get('product_code', '未知')}\n\n"
                 content += f"**生产批号**: {task_to_process.get('batch_no', '未知')}\n\n"
                 content += f"**IPQC单号**: {task_to_process.get('ipqc_no', '未知')}\n\n"
+                content += f"**备注**: {task_to_process.get('remark', '无')}\n\n"
                 content += f"**状态**: 已确认，不再跟踪\n"
                 
                 # 发送确认通知
@@ -740,6 +743,7 @@ class ExcelVerifier:
                         content += f"**产品编号**: {task.get('product_code', '未知')}\n\n"
                         content += f"**生产批号**: {task.get('batch_no', '未知')}\n\n"
                         content += f"**IPQC单号**: {task.get('ipqc_no', '未知')}\n\n"
+                        content += f"**备注**: {task.get('remark', '无')}\n\n"
                         content += f"**状态**: 复核成功\n"
                         self.error_robot.send_message(content=content, msgtype="markdown", title=title)
                     # 保存成功记录
@@ -903,6 +907,8 @@ class TaskManager:
             if existing_task:
                 # 任务已存在，修改预期结果
                 existing_task['result'] = new_result
+                # 更新备注字段
+                existing_task['remark'] = task_data.get('remark', '')
                 # 保持原来的状态，不重置为pending
                 task_id = existing_task['task_id']
                 logger.info(f"已更新验证任务: {task_id}, 预期结果改为: {new_result}")
@@ -945,6 +951,7 @@ class TaskManager:
                     'batch_no': batch_no,
                     'ipqc_no': ipqc_no,
                     'result': new_result,
+                    'remark': task_data.get('remark', ''),
                     'created_at': datetime.now().isoformat(),
                     'status': 'pending'
                 }

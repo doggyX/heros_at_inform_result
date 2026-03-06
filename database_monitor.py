@@ -679,7 +679,8 @@ class DatabaseMonitor:
                                                 'product_code': record.get('产品编号', ''),
                                                 'batch_no': batch_no,
                                                 'ipqc_no': record.get('IPQC单号', ''),
-                                                'result': new_result
+                                                'result': new_result,
+                                                'remark': record.get('备注', '')
                                             }
                                             task_id = self.task_manager.add_verify_task(task_data)
                                             logger.info(f"已添加验证任务: {task_id} 对应产品: {task_data['product_code']}, 批号: {task_data['batch_no']}, IPQC: {task_data['ipqc_no']}")
