@@ -1,7 +1,7 @@
 {
   "status": "running",
   "message": "验证程序启动",
-  "timestamp": 1772681136.1126027,
+  "timestamp": 1772776870.5422645,
   "check_interval": 1,
-  "task_count": 2
+  "task_count": 4
 }

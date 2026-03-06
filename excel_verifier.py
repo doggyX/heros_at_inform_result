@@ -691,8 +691,8 @@ class ExcelVerifier:
                 logger.info(f"任务 {task_id} 已处理，从任务列表中移除")
                 return True
             else:
-                logger.error(f"未找到任务: {task_id}")
-                return False
+                logger.info(f"任务 {task_id} 不存在，可能已完成")
+                return True
         except Exception as e:
             logger.error(f"处理任务时发生错误: {str(e)}")
             return False
@@ -729,6 +729,19 @@ class ExcelVerifier:
                     logger.info(f"任务验证成功: {task_id}, 耗时: {elapsed:.2f}秒")
                     # 打关键结果日志
                     logger.info(f"验证详情: 预期结果={verify_details.get('expected_result')}, 查找到的文件={verify_details.get('file_path')}, 文件名关键字={verify_details.get('file_result_keyword')}, 检查单元格={verify_details.get('cell_checked')}, 单元格结果={verify_details.get('cell_value')}")
+                    # 检查任务状态，如果是continue则发送复核成功通知
+                    task_status = task.get('status', 'pending')
+                    if task_status == 'continue':
+                        # 发送复核成功通知
+                        title = "任务复核成功通知"
+                        content = f"# {title}\n\n"
+                        content += f"**复核时间**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
+                        content += f"**任务ID**: {task_id}\n\n"
+                        content += f"**产品编号**: {task.get('product_code', '未知')}\n\n"
+                        content += f"**生产批号**: {task.get('batch_no', '未知')}\n\n"
+                        content += f"**IPQC单号**: {task.get('ipqc_no', '未知')}\n\n"
+                        content += f"**状态**: 复核成功\n"
+                        self.error_robot.send_message(content=content, msgtype="markdown", title=title)
                     # 保存成功记录
                     self.save_success_record(task, elapsed, verify_details)
                     # 验证成功，删除任务（不添加到remaining_tasks）
@@ -736,7 +749,8 @@ class ExcelVerifier:
                     logger.error(f"任务验证失败: {task_id}, 错误: {message}, 耗时: {elapsed:.2f}秒")
                     # 发送错误通知
                     self.send_error_notification(task, message, elapsed)
-                    # 验证失败，保留任务以便下一次重试
+                    # 验证失败，将任务状态改为continue
+                    task['status'] = 'continue'
                     remaining_tasks.append(task)
             
             # 保存更新后的任务列表（只保留失败的任务）
@@ -797,16 +811,57 @@ class ExcelVerifier:
 class TaskManager:
     """任务管理器，用于添加验证任务"""
     
-    def __init__(self, task_file: str):
+    def __init__(self, task_file: str, counter_file: str = 'task_counter.json'):
         """
         初始化任务管理器
         
         Args:
             task_file: 任务列表文件路径
+            counter_file: 任务计数器配置文件路径
         """
         self.task_file = task_file
+        self.counter_file = counter_file
         self.today_date = None  # 记录当天日期
         self.today_task_count = 0  # 记录当天任务数
+        
+        # 从配置文件加载任务计数器和日期
+        self._load_counter()
+    
+    def _load_counter(self):
+        """
+        从配置文件加载任务计数器和日期
+        """
+        try:
+            if os.path.exists(self.counter_file):
+                with open(self.counter_file, 'r', encoding='utf-8') as f:
+                    counter_data = json.load(f)
+                self.today_date = counter_data.get('today_date')
+                self.today_task_count = counter_data.get('today_task_count', 0)
+                logger.info(f"从配置文件加载任务计数器: 日期={self.today_date}, 计数={self.today_task_count}")
+            else:
+                # 创建空的计数器文件
+                self._save_counter()
+                logger.info("创建新的任务计数器配置文件")
+        except Exception as e:
+            logger.error(f"加载任务计数器失败: {str(e)}")
+            # 加载失败时初始化默认值
+            self.today_date = None
+            self.today_task_count = 0
+    
+    def _save_counter(self):
+        """
+        保存任务计数器和日期到配置文件
+        """
+        try:
+            counter_data = {
+                'today_date': self.today_date,
+                'today_task_count': self.today_task_count
+            }
+            with open(self.counter_file, 'w', encoding='utf-8') as f:
+                json.dump(counter_data, f, ensure_ascii=False, indent=2)
+            logger.info(f"保存任务计数器: 日期={self.today_date}, 计数={self.today_task_count}")
+        except Exception as e:
+            logger.error(f"保存任务计数器失败: {str(e)}")
     
     def add_verify_task(self, task_data: Dict):
         """
@@ -830,50 +885,78 @@ class TaskManager:
                     # 文件内容不是有效的JSON，使用空列表
                     tasks = []
             
-            # 生成任务ID
-            # 从今天8点到次日8点日期为今天，加上3位编号
-            now = datetime.now()
-            # 检查是否在8点前，如果是则使用昨天的日期
-            if now.hour < 8:
-                date = (now - timedelta(days=1)).strftime('%y%m%d')
+            # 检查是否已存在相同的任务（通过产品编号、生产批号和IPQC单号判断）
+            product_code = task_data.get('product_code')
+            batch_no = task_data.get('batch_no')
+            ipqc_no = task_data.get('ipqc_no')
+            new_result = task_data.get('result')
+            
+            # 查找现有任务
+            existing_task = None
+            for task in tasks:
+                if (task.get('product_code') == product_code and
+                    task.get('batch_no') == batch_no and
+                    task.get('ipqc_no') == ipqc_no):
+                    existing_task = task
+                    break
+            
+            if existing_task:
+                # 任务已存在，修改预期结果
+                existing_task['result'] = new_result
+                # 保持原来的状态，不重置为pending
+                task_id = existing_task['task_id']
+                logger.info(f"已更新验证任务: {task_id}, 预期结果改为: {new_result}")
             else:
-                date = now.strftime('%y%m%d')
-            
-            # 检查日期是否变化，如果是则重置任务计数
-            if self.today_date != date:
-                self.today_date = date
-                # 初始化当天任务数
-                self.today_task_count = 0
-                # 遍历现有任务，统计当天的任务数（仅在日期变化时执行）
-                for existing_task in tasks:
-                    existing_task_id = existing_task.get('task_id', '')
-                    if existing_task_id.startswith(date):
-                        self.today_task_count += 1
-            
-            # 递增任务数
-            self.today_task_count += 1
-            # 生成3位编号
-            task_id = f"{date}{self.today_task_count:03d}"
-            
-            # 构建任务
-            task = {
-                'task_id': task_id,
-                'product_code': task_data.get('product_code'),
-                'batch_no': task_data.get('batch_no'),
-                'ipqc_no': task_data.get('ipqc_no'),
-                'result': task_data.get('result'),
-                'created_at': datetime.now().isoformat(),
-                'status': 'pending'
-            }
-            
-            # 添加任务
-            tasks.append(task)
+                # 任务不存在，添加新任务
+                # 生成任务ID
+                # 从今天8点到次日8点日期为今天，加上3位编号
+                now = datetime.now()
+                # 检查是否在8点前，如果是则使用昨天的日期
+                if now.hour < 8:
+                    date = (now - timedelta(days=1)).strftime('%y%m%d')
+                else:
+                    date = now.strftime('%y%m%d')
+                
+                # 检查日期是否变化，如果是则重置任务计数
+                if self.today_date != date:
+                    self.today_date = date
+                    # 初始化当天任务数
+                    self.today_task_count = 0
+                    # 遍历现有任务，统计当天的任务数（仅在日期变化时执行）
+                    for task in tasks:
+                        existing_task_id = task.get('task_id', '')
+                        if existing_task_id.startswith(date):
+                            self.today_task_count += 1
+                    # 保存计数器配置
+                    self._save_counter()
+                
+                # 递增任务数
+                self.today_task_count += 1
+                # 生成3位编号
+                task_id = f"{date}{self.today_task_count:03d}"
+                
+                # 保存计数器配置
+                self._save_counter()
+                
+                # 构建任务
+                task = {
+                    'task_id': task_id,
+                    'product_code': product_code,
+                    'batch_no': batch_no,
+                    'ipqc_no': ipqc_no,
+                    'result': new_result,
+                    'created_at': datetime.now().isoformat(),
+                    'status': 'pending'
+                }
+                
+                # 添加任务
+                tasks.append(task)
+                logger.info(f"已添加验证任务: {task_id}")
             
             # 保存任务
             with open(self.task_file, 'w', encoding='utf-8') as f:
                 json.dump(tasks, f, ensure_ascii=False, indent=2)
             
-            logger.info(f"已添加验证任务: {task_id}")
             return task_id
         except Exception as e:
             logger.error(f"添加验证任务失败: {str(e)}")
@@ -901,14 +984,17 @@ def start_http_server(verifier):
                     if task_id:
                         # 处理任务
                         success = verifier.process_task(task_id)
+                        # 无论任务是否存在，都返回成功响应
+                        # 标记任务为已处理
+                        processed_tasks.add(task_id)
+                        
+                        # 返回成功响应（HTML页面）
+                        self.send_response(200)
+                        self.send_header('Content-type', 'text/html; charset=utf-8')
+                        self.end_headers()
+                        
                         if success:
-                            # 标记任务为已处理
-                            processed_tasks.add(task_id)
-                            
-                            # 返回成功响应（HTML页面）
-                            self.send_response(200)
-                            self.send_header('Content-type', 'text/html; charset=utf-8')
-                            self.end_headers()
+                            # 任务存在且处理成功
                             html_content = '''
                             <!DOCTYPE html>
                             <html lang="zh-CN">
@@ -963,19 +1049,15 @@ def start_http_server(verifier):
                             </body>
                             </html>
                             '''
-                            self.wfile.write(html_content.encode('utf-8'))
                         else:
-                            # 返回失败响应（HTML页面）
-                            self.send_response(404)
-                            self.send_header('Content-type', 'text/html; charset=utf-8')
-                            self.end_headers()
+                            # 任务不存在，显示任务已完成
                             html_content = '''
                             <!DOCTYPE html>
                             <html lang="zh-CN">
                             <head>
                                 <meta charset="UTF-8">
                                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                <title>任务处理失败</title>
+                                <title>任务已完成</title>
                                 <style>
                                     body {
                                         font-family: Arial, sans-serif;
@@ -991,8 +1073,8 @@ def start_http_server(verifier):
                                         max-width: 500px;
                                         margin: 0 auto;
                                     }
-                                    .error {
-                                        color: #f44336;
+                                    .success {
+                                        color: #4CAF50;
                                         font-size: 18px;
                                         margin-bottom: 20px;
                                     }
@@ -1001,7 +1083,7 @@ def start_http_server(verifier):
                                         margin-bottom: 30px;
                                     }
                                     .btn {
-                                        background-color: #f44336;
+                                        background-color: #4CAF50;
                                         color: white;
                                         padding: 10px 20px;
                                         border: none;
@@ -1010,20 +1092,20 @@ def start_http_server(verifier):
                                         font-size: 14px;
                                     }
                                     .btn:hover {
-                                        background-color: #da190b;
+                                        background-color: #45a049;
                                     }
                                 </style>
                             </head>
                             <body>
                                 <div class="container">
-                                    <h2 class="error">任务处理失败</h2>
-                                    <p class="message">任务 ''' + task_id + ''' 处理失败，请检查任务是否存在</p>
+                                    <h2 class="success">任务已完成</h2>
+                                    <p class="message">任务 ''' + task_id + ''' 已完成，无需处理</p>
                                     <button class="btn" onclick="window.close()">关闭</button>
                                 </div>
                             </body>
                             </html>
                             '''
-                            self.wfile.write(html_content.encode('utf-8'))
+                        self.wfile.write(html_content.encode('utf-8'))
                     else:
                         # 缺少任务ID（HTML页面）
                         self.send_response(400)

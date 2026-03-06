@@ -8,7 +8,8 @@ load_dotenv()
 VERIFY_CONFIG = {
     'check_interval': 5.0,  # 检查间隔（分钟）
     'task_file': 'verify_tasks.json',  # 任务列表文件
-    'log_file': 'verify.log'  # 验证日志文件
+    'log_file': 'verify.log',  # 验证日志文件
+    'task_counter_file': 'task_counter.json'  # 任务计数器配置文件
 }
 
 # 本地挂载路径配置

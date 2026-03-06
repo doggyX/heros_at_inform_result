@@ -217,7 +217,10 @@ class DatabaseMonitor:
         self.last_command_time = 0  # 上次处理命令的时间
         
         # 初始化任务管理器
-        self.task_manager = TaskManager(vcfg.VERIFY_CONFIG['task_file'])
+        self.task_manager = TaskManager(
+            vcfg.VERIFY_CONFIG['task_file'],
+            vcfg.VERIFY_CONFIG['task_counter_file']
+        )
         
         # 初始化状态文件
         self.update_status('running', '监控程序启动')
